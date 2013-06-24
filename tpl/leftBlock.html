@@ -1,0 +1,10 @@
+<{if $xoBlocks.canvas_left}>
+    <div class="span3 pull-left">
+        <{foreach item=block from=$xoBlocks.canvas_left}>
+            <aside role="complementary">
+            <{if $block.title}><h3><{$block.title}></h3><{/if}>
+            <{$block.content}>
+            </aside>
+        <{/foreach}>
+    </div>
+<{/if}>

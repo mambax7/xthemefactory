@@ -1,0 +1,1 @@
+- Reset elements title on "css/reset.css" in line 397

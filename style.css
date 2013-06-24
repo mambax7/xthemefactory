@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* General containers */
+.wrapper{background:#FAFAFA;}
+.container{max-width:960px;}
+/* Header -> two elements -> Two elements, if you want one header 100% place the div.header outside container. */
+div.header{margin:0 0 10px 0;}
+div.header > header{line-height:90px;}
+div.header > header > h1{color:#09C; padding:0 0 0 10px;}
+div.header > header > h1 > a{}
+
+/* Slider DIV*/
+div.slider{
+	width:auto;
+	height:350px;
+}
+
+/* All this is necessary for complete customization of the bootstrap menu. This is optional */
+div.navbar{}
+div.navbar > div.navbar-inner{}
+div.navbar > div.navbar-inner > div.nav-collapse{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li{}
+
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > a{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li.active > a,
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > a:hover,
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > a:focus{}
+
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > .dropdown-toggle{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > a:hover{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu > li{}
+
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu > li > a{}
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu > li > a:hover,
+div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu > li:hover > a{}
+
+.dropdown-submenu > .dropdown-menu{}
+.dropdown-submenu > .dropdown-menu a{}
+.dropdown-submenu > .dropdown-menu a:hover,
+.dropdown-submenu > .dropdown-menu li:hover a{}
+.dropdown-menu .active > a,
+.dropdown-menu .active > a:hover{}
+/* End Menu */
+
+div.container > .row-fluid > .span3 > aside{}
+div.container > .row-fluid > .span3 > aside > h3{}
+div.container > .row-fluid > .span3 > aside > ul{}
+div.container > .row-fluid > .span3 > aside > ul > li{}
+
+/* Content Zone */
+div.content{text-align:justify;}
+div.content > section{}
+div.content > section > article.content{}
+/* End Content Zone*/
+
+/* XOOPS Blocks*/
+
+/* End XOOPS Blocks*/
+
+/* Footer Zone */
+footer.footer{background:#EEE; height:40px; margin:20px 0 0 0;}
+footer.footer > h3{font-size:12px; line-height:40px; padding:0 10px 0 10px;}
+/* End of Footer*/
+
+/* Super, Incredible, Unbelievable Bootstrap hack for align many spans side by side >.< */
+.centerzone [class*="span"]{margin-left:0; margin-bottom:10px;}
+.centerzone [class*="span"]:nth-child(odd){float:left;}
+.centerzone [class*="span"]:nth-child(even){float:right;}
+/* End */
+
+.clear{clear:both;}
