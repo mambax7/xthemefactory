@@ -22,8 +22,8 @@
 <!-- Scripts -->
 <{$xoops_module_header}>
 <script src="<{xoAppUrl browse.php?Frameworks/jquery/jquery.js}>" type="text/javascript"></script>
-<script src="<{$xoops_imageurl}>/js/bootstrap.min.js"></script>
-<script src="<{$xoops_imageurl}>/js/js.js"></script>
+<script src="<{$xoops_imageurl}>js/bootstrap.min.js"></script>
+<script src="<{$xoops_imageurl}>js/js.js"></script>
 <title>
     <{if $xoops_dirname == "system"}>
         <{$xoops_sitename}><{if $xoops_pagetitle !=''}> - <{$xoops_pagetitle}>
@@ -45,7 +45,7 @@
             </header>
         </div><!-- .header -->
 
-		<{includeq file="$theme_name/navmenu.html"}>
+		<{includeq file="$theme_name/tpl/navmenu.html"}>
         
 	    <div class="slider visible-desktop visible-tablet">
         
@@ -63,7 +63,7 @@
             
     </div><!-- .container -->
 
-<footer class="footer" role="contentinfo"><h3 class="container">&copy; 2013</h3></footer>
+<footer class="footer" role="contentinfo"><h3 class="container"><{$xoops_footer}></h3></footer>
 </div><!-- .wrapper -->
 </body>
 </html>

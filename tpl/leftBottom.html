@@ -1,10 +1,8 @@
 <{if $xoBlocks.page_bottomleft}>
-    <div class="cblocks pull-left">
-        <{foreach item=block from=$xoBlocks.page_bottomleft}>
-            <div class="centerblocks">
-            <{if $block.title}><strong><{$block.title}></strong><{/if}>
+    <{foreach item=block from=$xoBlocks.page_bottomleft}>
+        <div class="span6">
+            <{if $block.title}><h3 class="xtitle"><{$block.title}></h3><{/if}>
             <{$block.content}>
-            </div>
-        <{/foreach}>
-    </div>
+        </div>
+    <{/foreach}>
 <{/if}>
