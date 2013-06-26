@@ -1,0 +1,10 @@
+<{if $xoBlocks.page_bottomright}>
+    <div class="cblocks pull-right">
+        <{foreach item=block from=$xoBlocks.page_bottomright}>
+            <div class="centerblocks">
+            <{if $block.title}><strong><{$block.title}></strong><{/if}>
+            <{$block.content}>
+            </div>
+        <{/foreach}>
+    </div>
+<{/if}>
