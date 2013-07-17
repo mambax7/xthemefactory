@@ -401,3 +401,14 @@ h1,h2,h3,h4,h5,h6{
 }
 /* Link reset border */
 a:hover{text-decoration: none;}
+
+/* Pull Center */
+.pull-center{
+	margin:0 auto 0 auto;
+	float:none !important;
+}
+/* Reset Bootstrap Menu */
+/*
+div.navbar > div.navbar-inner,div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li.active > a,div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > .dropdown-toggle, div.navbar > div.navbar-inner > div.nav-collapse > nav.menu > ul.nav > li > ul.dropdown-menu, div.navbar .nav > li > .dropdown-menu:before, .navbar .nav > li > .dropdown-menu:after, ul.dropdown-menu, .dropdown-submenu > .dropdown-menu{border:0; background:none; filter: progid:DXImageTransform.Microsoft.gradient(enabled = false); box-shadow:none; border-radius:0;}
+.nav-list{margin:0; padding:0;}
+*/

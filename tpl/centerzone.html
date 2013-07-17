@@ -1,0 +1,24 @@
+<{if $xoBlocks.canvas_left && $xoBlocks.canvas_right}>
+    <section role="main" class="span6">
+        <{elseif $xoBlocks.canvas_left}>
+            <section role="main" class="span9">
+                <{elseif $xoBlocks.canvas_right}>
+                    <section role="main" class="span9">
+                        <{else}>
+                            <section role="main" class="span12">
+<{/if}>
+	<div class="row-fluid centerzone">
+    
+	<{includeq file="$theme_name/tpl/xoops-contents.html"}>
+
+    <{includeq file="$theme_name/tpl/centerBlock.html"}>
+	<{includeq file="$theme_name/tpl/centerLeft.html"}>
+	<{includeq file="$theme_name/tpl/centerRight.html"}>
+
+	<{includeq file="$theme_name/tpl/centerBottom.html"}>
+	<{includeq file="$theme_name/tpl/leftBottom.html"}>
+	<{includeq file="$theme_name/tpl/rightBottom.html"}>
+    
+    </div>
+
+</section>
