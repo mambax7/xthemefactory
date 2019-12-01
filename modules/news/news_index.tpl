@@ -19,10 +19,10 @@
 	<table width='100%' border='0'>
 	<tr>
 		<{section name=i loop=$columns}>
-		<td width="<{$columnwidth}>%"><{foreach item=story from=$columns[i]}><{include file="db:news_item.html" story=$story}><{/foreach}></td>
+		<td width="<{$columnwidth}>%"><{foreach item=story from=$columns[i]}><{include file="db:news_item.tpl" story=$story}><{/foreach}></td>
 		<{/section}>
 	</tr>
 	</table>
 	<div class="pagenav"><{$pagenav}></div>
-	<{include file='db:system_notification_select.html'}>
+	<{include file='db:system_notification_select.tpl'}>
 </div>

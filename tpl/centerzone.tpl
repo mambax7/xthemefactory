@@ -9,15 +9,15 @@
 <{/if}>
 	<div class="row-fluid centerzone">
     
-	<{includeq file="$theme_name/tpl/xoops-contents.html"}>
+	<{includeq file="$theme_name/tpl/xoops-contents.tpl"}>
 
-    <{includeq file="$theme_name/tpl/centerBlock.html"}>
-	<{includeq file="$theme_name/tpl/centerLeft.html"}>
-	<{includeq file="$theme_name/tpl/centerRight.html"}>
+    <{includeq file="$theme_name/tpl/centerBlock.tpl"}>
+	<{includeq file="$theme_name/tpl/centerLeft.tpl"}>
+	<{includeq file="$theme_name/tpl/centerRight.tpl"}>
 
-	<{includeq file="$theme_name/tpl/centerBottom.html"}>
-	<{includeq file="$theme_name/tpl/leftBottom.html"}>
-	<{includeq file="$theme_name/tpl/rightBottom.html"}>
+	<{includeq file="$theme_name/tpl/centerBottom.tpl"}>
+	<{includeq file="$theme_name/tpl/leftBottom.tpl"}>
+	<{includeq file="$theme_name/tpl/rightBottom.tpl"}>
     
     </div>
 

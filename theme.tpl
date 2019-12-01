@@ -39,26 +39,26 @@
 
 <body>
 <div class="wrapper">
-<{includeq file="$theme_name/tpl/userbar.html"}>
+<{includeq file="$theme_name/tpl/userbar.tpl"}>
 	<div class="container">
         <div class="header">
             <header role="banner">
             <h1 class="pull-left"><{$xoops_sitename}></h1>
 
-			<{includeq file="$theme_name/tpl/searchform.html"}>
+			<{includeq file="$theme_name/tpl/searchform.tpl"}>
             </header>
         </div><!-- .header -->
-		<{includeq file="$theme_name/tpl/navmenu.html"}>
+		<{includeq file="$theme_name/tpl/navmenu.tpl"}>
 
 <{if $xoops_dirname == "system"}>
-	<{includeq file="$theme_name/tpl/slider.html"}>
+	<{includeq file="$theme_name/tpl/slider.tpl"}>
 <{/if}>
 			<div class="content row-fluid">
-            	<{includeq file="$theme_name/tpl/leftBlock.html"}>
+            	<{includeq file="$theme_name/tpl/leftBlock.tpl"}>
                 
-                <{includeq file="$theme_name/tpl/centerzone.html"}>
+                <{includeq file="$theme_name/tpl/centerzone.tpl"}>
                 
-                <{includeq file="$theme_name/tpl/rightBlock.html"}>
+                <{includeq file="$theme_name/tpl/rightBlock.tpl"}>
             </div><!-- .content -->
     </div><!-- .container -->
 <footer class="footer" role="contentinfo"><h3 class="container"><{$xoops_footer}></h3></footer>

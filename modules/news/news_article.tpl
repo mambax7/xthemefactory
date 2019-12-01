@@ -1,4 +1,4 @@
-<{include file="db:news_item.html" story=$story}>
+<{include file="db:news_item.tpl" story=$story}>
 
     <div class="news-tools">
         <{if $xoops_isadmin}>
@@ -45,7 +45,7 @@
 
     <{if $tags}>
         <div class="tagbar">
-            <{include file="db:tag_bar.html"}>
+            <{include file="db:tag_bar.tpl"}>
         </div>
     <{/if}>
 
@@ -105,11 +105,11 @@
 
 <div class="pad2 marg2">
 <{if $comment_mode == "flat"}>
-<{include file="db:system_comments_flat.html"}>
+<{include file="db:system_comments_flat.tpl"}>
 <{elseif $comment_mode == "thread"}>
-<{include file="db:system_comments_thread.html"}>
+<{include file="db:system_comments_thread.tpl"}>
 <{elseif $comment_mode == "nest"}>
-<{include file="db:system_comments_nest.html"}>
+<{include file="db:system_comments_nest.tpl"}>
 <{/if}>
 </div>
-<{include file='db:system_notification_select.html'}>
+<{include file='db:system_notification_select.tpl'}>
